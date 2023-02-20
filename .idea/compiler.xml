@@ -7,7 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring6-001-revelation" />
+        <module name="spring6-003-dependency-injection" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring6-001-first (1)" target="17" />
+      <module name="spring6-001-first (2)" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
