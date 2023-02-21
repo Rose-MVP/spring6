@@ -1,9 +1,6 @@
 package com.powernode.spring6.test;
 
-import com.powernode.spring6.beans.Goods;
-import com.powernode.spring6.beans.MyDataSource;
-import com.powernode.spring6.beans.Order;
-import com.powernode.spring6.beans.Person;
+import com.powernode.spring6.beans.*;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -27,5 +24,11 @@ public class DITest {
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext("spring-array.xml");
         Goods goods=applicationContext.getBean("goods2", Goods.class);
         System.out.println(goods);
+    }
+    @Test
+    public  void  testCollection(){
+        ApplicationContext applicationContext=new ClassPathXmlApplicationContext("spring-collection.xml");
+        People people=applicationContext.getBean("peopleBean", People.class);
+        System.out.println(people);
     }
 }

@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd695fe-f0c5-455c-a887-d5efcb15e92f" name="变更" comment="spring6 依赖注入">
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/beans/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/beans/MyDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/beans/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/beans/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/beans/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/beans/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-array-simple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-array.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-simple-type.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/com/powernode/spring6/test/DITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/com/powernode/spring6/test/testSimpleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-collection.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/dao/OrderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/dao/OrderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/java/com/powernode/spring6/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/com/powernode/spring6/test/SpringDITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/com/powernode/spring6/test/SpringDITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/com/powernode/spring6/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/com/powernode/spring6/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/com/powernode/spring6/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/com/powernode/spring6/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/target/classes/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/target/test-classes/com/powernode/spring6/test/SpringDITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/target/test-classes/com/powernode/spring6/test/SpringDITest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/com/powernode/spring6/test/DITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/com/powernode/spring6/test/DITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -97,7 +76,7 @@
       <recent name="D:\powernode\spring6\code\spring6\spring6-003-dependency-injection\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DITest.testArray">
+  <component name="RunManager" selected="JUnit.DITest.testArraySimple">
     <configuration name="DITest.testArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-003-dependency-injection" />
       <extension name="coverage">
@@ -130,6 +109,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DITest.testCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring6-003-dependency-injection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.powernode.spring6.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.powernode.spring6.test" />
+      <option name="MAIN_CLASS_NAME" value="com.powernode.spring6.test.DITest" />
+      <option name="METHOD_NAME" value="testCollection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DITest.testDataSource" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-003-dependency-injection" />
       <extension name="coverage">
@@ -141,22 +136,6 @@
       <option name="PACKAGE_NAME" value="com.powernode.spring6.test" />
       <option name="MAIN_CLASS_NAME" value="com.powernode.spring6.test.DITest" />
       <option name="METHOD_NAME" value="testDataSource" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringDITest.testConstructorDI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring6-003-dependency-injection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.powernode.spring6.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.powernode.spring6.test" />
-      <option name="MAIN_CLASS_NAME" value="com.powernode.spring6.test.SpringDITest" />
-      <option name="METHOD_NAME" value="testConstructorDI" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DITest.testArray" />
         <item itemvalue="JUnit.DITest.testArraySimple" />
+        <item itemvalue="JUnit.DITest.testArray" />
+        <item itemvalue="JUnit.DITest.testCollection" />
         <item itemvalue="JUnit.DITest.testDataSource" />
         <item itemvalue="JUnit.testSimpleType.testSimpleType" />
-        <item itemvalue="JUnit.SpringDITest.testConstructorDI" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +186,8 @@
       <workItem from="1676938386517" duration="8634000" />
       <workItem from="1676947236197" duration="519000" />
       <workItem from="1676957602270" duration="384000" />
-      <workItem from="1676968303215" duration="983000" />
+      <workItem from="1676968303215" duration="2123000" />
+      <workItem from="1676974966270" duration="1684000" />
     </task>
     <task id="LOCAL-00001" summary="spring6 启示">
       <created>1676605976338</created>
@@ -230,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676889338867</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="spring6 依赖注入">
+      <created>1676970716664</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676970716664</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
