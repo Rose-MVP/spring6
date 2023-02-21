@@ -10,6 +10,13 @@
 property标签的name是属性名。
 property标签的ref是要注入的bean对象的id。(通过ref属性来完成bean的装配，这是bean最简单的一种装配方式。装配指的是：创建系统组件之间关联的动作)
 -->
-        <property name="mySQLUserDao" ref="userDaoBean"></property>
+    <property name="userDao" ref="userDaoBean"></property>
+    </bean>
+    <bean id="orderDaoBean" class="com.powernode.spring6.dao.OrderDao"/>
+    <bean id="orderServiceBean" class="com.powernode.spring6.service.OrderService">
+        <!--index="0"表示构造方法的第一个参数，将orderDaoBean对象传递给构造方法的第一个参数。-->
+        <constructor-arg index="0" ref="orderDaoBean"/>
+        <!--第二个参数下标是1-->
+        <constructor-arg index="1" ref="userDaoBean"/>
     </bean>
 </beans>

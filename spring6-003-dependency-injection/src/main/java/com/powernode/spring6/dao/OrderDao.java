@@ -11,9 +11,7 @@ import org.slf4j.LoggerFactory;
  **/
 public class OrderDao {
 
-    private static final Logger logger = LoggerFactory.getLogger(OrderDao.class);
-
-    public void insert(){
-        logger.info("订单正在生成....");
+    public void deleteById(){
+        System.out.println("正在删除订单。。。");
     }
 }
