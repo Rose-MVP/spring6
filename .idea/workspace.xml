@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3dd695fe-f0c5-455c-a887-d5efcb15e92f" name="变更" comment="spring6 依赖注入">
-      <change afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/main/resources/spring-collection.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/com/powernode/spring6/test/DITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-003-dependency-injection/src/test/java/com/powernode/spring6/test/DITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-001-first/target/classes/com/powernode/spring6/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-001-first/target/classes/com/powernode/spring6/bean/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-001-first/target/classes/com/powernode/spring6/dao/UserDaoImplForMySQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-001-first/target/classes/com/powernode/spring6/dao/UserDaoImplForMySQL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring6-001-first/target/test-classes/com/bjpowernode/spring6/test/FirstSpringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring6-001-first/target/test-classes/com/bjpowernode/spring6/test/FirstSpringTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +77,7 @@
       <recent name="D:\powernode\spring6\code\spring6\spring6-003-dependency-injection\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DITest.testArraySimple">
+  <component name="RunManager" selected="JUnit.DITest.testDataSource">
     <configuration name="DITest.testArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring6-003-dependency-injection" />
       <extension name="coverage">
@@ -159,10 +160,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DITest.testDataSource" />
         <item itemvalue="JUnit.DITest.testArraySimple" />
         <item itemvalue="JUnit.DITest.testArray" />
         <item itemvalue="JUnit.DITest.testCollection" />
-        <item itemvalue="JUnit.DITest.testDataSource" />
         <item itemvalue="JUnit.testSimpleType.testSimpleType" />
       </list>
     </recent_temporary>
@@ -187,7 +188,9 @@
       <workItem from="1676947236197" duration="519000" />
       <workItem from="1676957602270" duration="384000" />
       <workItem from="1676968303215" duration="2123000" />
-      <workItem from="1676974966270" duration="1684000" />
+      <workItem from="1676974966270" duration="2297000" />
+      <workItem from="1677120313491" duration="678000" />
+      <workItem from="1677130443386" duration="2293000" />
     </task>
     <task id="LOCAL-00001" summary="spring6 启示">
       <created>1676605976338</created>
@@ -217,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676970716664</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="spring6 依赖注入">
+      <created>1676976780422</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676976780422</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
