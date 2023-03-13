@@ -1,5 +1,6 @@
 package com.powernode.spring6.test;
 
+import com.powernode.spring6.service.CustomerService;
 import com.powernode.spring6.service.OrderService;
 import com.powernode.spring6.service.UserService;
 import org.junit.Test;
@@ -17,8 +18,10 @@ public class SpringDITest {
     }
     @Test
     public void testConstructorDI(){
-        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("spring.xml");
-        OrderService orderServiceBean = applicationContext.getBean("orderServiceBean", OrderService.class);
-        orderServiceBean.delete();
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
+        CustomerService customerService = applicationContext.getBean("csBean", CustomerService.class);
+        customerService.save();
+        CustomerService csBean2 = applicationContext.getBean("csBean3", CustomerService.class);
+        csBean2.save();
     }
 }
